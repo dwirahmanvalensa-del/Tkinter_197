@@ -11,7 +11,8 @@ tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 12, "bold"
 for i in range(1, 11):
     frame = tk.Frame(root)
     frame.pack(anchor="w", padx=20, pady=2)
-    
     tk.Label(frame, text=f"Nilai Mata Pelajaran {i} : ").pack(side="left")
     tk.Entry(frame).pack(side="left")
+
+tk.Button(root, text="Hasil Prediksi", command=prediksi).pack(pady=10)
 
