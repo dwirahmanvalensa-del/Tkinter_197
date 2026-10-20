@@ -18,3 +18,5 @@ tk.Button(root, text="Hasil Prediksi", command=prediksi).pack(pady=10)
 
 label_hasil = tk.Label(root, text="", font=("Arial", 10, "bold"))
 label_hasil.pack(pady=5)
+
+root.mainloop()
