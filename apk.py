@@ -13,5 +13,5 @@ for i in range(1, 11):
     frame.pack(anchor="w", padx=20, pady=2)
     
     tk.Label(frame, text=f"Nilai Mata Pelajaran {i} : ").pack(side="left")
-   
+    tk.Entry(frame).pack(side="left")
 
