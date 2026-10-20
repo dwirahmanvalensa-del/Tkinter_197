@@ -6,3 +6,5 @@ def prediksi():
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 
+tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 12, "bold")).pack(pady=10)
+
